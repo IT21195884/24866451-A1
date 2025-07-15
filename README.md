@@ -1,2 +1,2 @@
-# 24866451-OOP-A1
+# 24866451-A1
 SCU OOP module Assessment 1
