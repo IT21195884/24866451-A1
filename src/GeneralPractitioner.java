@@ -7,7 +7,7 @@ public class GeneralPractitioner extends HealthProfessional {
         this.specialty = "General Health";   //Special Attribute for the General Practioner class
     }
 
-    //Parametarized Constructor
+    // Parametarized Constructor
     public GeneralPractitioner(String id, String name, String clinicLocation, String specialty) {
         super(id, name, clinicLocation);
         this.specialty = specialty;

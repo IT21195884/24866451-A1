@@ -7,7 +7,7 @@ public class Dietitian extends HealthProfessional {
         this.certification = "Registered Dietitian";    //Special Attribute for the Dietition class
     }
 
-    //Parametarized Constructor
+    // Parametarized Constructor
     public Dietitian(String id, String name, String clinicLocation, String certification) {
         super(id, name, clinicLocation);
         this.certification = certification;
