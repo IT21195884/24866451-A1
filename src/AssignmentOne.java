@@ -1,9 +1,13 @@
+
+// Part 3 – Using classes and objects
+
 import java.util.ArrayList;
 import java.util.Iterator;
 
 
 public class AssignmentOne {
 
+    // Part 5 – Collection of appointments
     // Collection to hold all appointments
     static ArrayList<Appointment> appointments = new ArrayList<>();
 
@@ -25,7 +29,7 @@ public class AssignmentOne {
         d1.printDetails();
         d2.printDetails();
 
-        System.out.println("---------------------------------------------");
+        System.out.println("------------------------------");
 
         // Part 5 – Collection of appointments
 
@@ -44,7 +48,17 @@ public class AssignmentOne {
         // Displaying updated appointments
         printExistingAppointments();
 
-        System.out.println("---------------------------------------------");
+        System.out.println("------------------------------");
+
+
+
+
+
+
+
+
+
+
     }
 
     // Method to create a new appointment
