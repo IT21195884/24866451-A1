@@ -16,8 +16,12 @@ public class GeneralPractitioner extends HealthProfessional {
     // Method to print general practitioner details
     @Override
     public void printDetails() {
-        System.out.println("--- General Practitioner ---");
-        super.printDetails();
-        System.out.println("Specialty: " + specialty);
+        System.out.println(toString());
+    }
+
+    // toString method for general practitioner
+    @Override
+    public String toString() {
+        return "--- General Practitioner ---\n" + super.toString() + "\nSpecialty: " + specialty;
     }
 }

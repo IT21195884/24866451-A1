@@ -1,4 +1,4 @@
-public class HealthProfessional {
+public abstract class HealthProfessional {
     protected String id;
     protected String name;
     protected String clinicLocation;
@@ -17,10 +17,14 @@ public class HealthProfessional {
         this.clinicLocation = clinicLocation;
     }
 
-    //Health Professional Details printing method
+    // Method to print professional details
     public void printDetails() {
-        System.out.println("ID: " + id);
-        System.out.println("Name: " + name);
-        System.out.println("Clinic Location: " + clinicLocation);
+        System.out.println(toString());
+    }
+
+    // toString method for base class
+    @Override
+    public String toString() {
+        return "ID: " + id + "\nName: " + name + "\nClinic Location: " + clinicLocation;
     }
 }

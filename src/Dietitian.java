@@ -17,8 +17,12 @@ public class Dietitian extends HealthProfessional {
     // Method to print dietitian details
     @Override
     public void printDetails() {
-        System.out.println("--- Dietitian ---");
-        super.printDetails();
-        System.out.println("Certification: " + certification);
+        System.out.println(toString());
+    }
+
+    // toString method for dietitian
+    @Override
+    public String toString() {
+        return "--- Dietitian ---\n" + super.toString() + "\nCertification: " + certification;
     }
 }

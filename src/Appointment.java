@@ -25,11 +25,17 @@ public class Appointment {
         return patientMobile;
     }
 
-    //Printing Appointment Details
+    // Method to print full appointment details
     public void printAppointmentDetails() {
-        System.out.println("Patient Name: " + patientName);
-        System.out.println("Mobile: " + patientMobile);
-        System.out.println("Time Slot: " + timeSlot);
-        professional.printDetails();
+        System.out.println(toString());
+    }
+
+    // toString method for appointment
+    @Override
+    public String toString() {
+        return "Patient Name: " + patientName +
+                "\nMobile: " + patientMobile +
+                "\nTime Slot: " + timeSlot +
+                "\n" + (professional != null ? professional.toString() : "No professional assigned");
     }
 }
