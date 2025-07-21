@@ -7,7 +7,7 @@ public class HealthProfessional {
     public HealthProfessional() {
         this.id = "";
         this.name = "";
-        this.clinicLocation = "";
+        this.clinicLocation = "";  //The other variable regardeless of the Health Profession
     }
 
     //Parametarized Constructor
