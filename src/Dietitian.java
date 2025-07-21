@@ -4,7 +4,7 @@ public class Dietitian extends HealthProfessional {
     //Default constructor featuring super class(HealthProfessional.java)
     public Dietitian() {
         super();
-        this.certification = "Registered Dietitian";
+        this.certification = "Registered Dietitian";    //Special Attribute for the Dietition class
     }
 
     //Parametarized Constructor

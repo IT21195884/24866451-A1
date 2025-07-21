@@ -3,8 +3,8 @@ public class GeneralPractitioner extends HealthProfessional {
 
     //Default constructor featuring super class(HealthProfessional.java)
     public GeneralPractitioner() {
-        super();
-        this.specialty = "General Health";
+        super();     //Inheritance
+        this.specialty = "General Health";   //Special Attribute for the General Practioner class
     }
 
     //Parametarized Constructor
